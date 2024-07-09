@@ -3,8 +3,6 @@
 `voltcraft-dlp3306` is Apache 2.0 licensed and accepts contributions via GitHub.
 This document will cover how to contribute to the project and report issues.
 
-<p align="center"><img width="50%" src="docs/static_files/sdk-artwork.png" /></p>
-
 ## Topics
 
 - [Reporting Security Issues](#reporting-security-issues)
@@ -56,7 +54,7 @@ To submit code:
 - Push your commit(s) to your topic branch on your fork
 - Open a pull request against `voltcraft-dlp3306` master branch that follows [PR guidelines](#pull-request-guidelines)
 
-The [maintainers](MAINTAINERS.md) of `voltcraft-dlp3306` use a "Let's Get This Merged" (LGTM) message in the pull request to note that the commits are ready to merge.
+The maintainers of `voltcraft-dlp3306` use a "Let's Get This Merged" (LGTM) message in the pull request to note that the commits are ready to merge.
 After one or more maintainer states LGTM, we will merge.
 If you have questions or comments on your code, feel free to correct these in your branch through new commits.
 
