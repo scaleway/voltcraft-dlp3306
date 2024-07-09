@@ -80,6 +80,4 @@ Keep in mind only the **Pull Request Title** will be used as commit message as w
 
 ## Community guidelines
 
-See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-
 Thank you for reading through all of this, if you have any question feel free to [reach us](README.md#reach-us)!
