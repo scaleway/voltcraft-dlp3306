@@ -43,3 +43,12 @@ if __name__ == "__main__":
     asyncio.run(main_async)
 
 ```
+
+## Development
+This repository is at its early stage and is still in active development. If you are looking for a way to contribute please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Reach us
+We love feedback. Feel free to reach us on [Scaleway Slack community](https://slack.scaleway.com/), we are waiting for you on [#opensource](https://scaleway-community.slack.com/app_redirect?channel=opensource)..
+
+## Licence
+[License Apache 2.0](LICENCE)
