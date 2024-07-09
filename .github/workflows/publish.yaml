@@ -1,14 +1,12 @@
 name: Deploy to PyPi
 
 on:
-  workflow_run:
-    workflows: [push, pull_request]
+  push:
     branches:
       - main
 
 jobs:
   publish:
-
     runs-on: ubuntu-latest
 
     steps:
