@@ -10,19 +10,15 @@ We encourage installing this package via the pip tool (a Python package manager)
 pip install voltcraft-dlp3306
 ```
 
-Physically plug an RJ45 cable to the Volcraft device.
+Physically plug an RJ45 cable to the Volcraft device and a switch or directly to your laptop.
 
 ![](docs/voltcraft_1.jpg)
 
+The IP address and the port of your Voltcraft device can be found/setup at: 'Utility' button > 'Port set' tab > 'LAN set' subtab
+
 ## Getting started
 
-The plugin is designed to be *straightforward and stateless*. Some improvements/optimizations could be done with a stateful object.
-
-### Some context
-
-![](docs/voltcraft_2.jpg)
-
-### Code
+This plugin is designed to be *straightforward and stateless*. Some improvements/optimizations could be done with a stateful object.
 
 ```python
 import asyncio
@@ -55,6 +51,10 @@ if __name__ == "__main__":
     asyncio.run(main_async)
 
 ```
+
+Vocabulary explained:
+
+![](docs/voltcraft_2.jpg)
 
 ## Development
 This repository is at its early stage and is still in active development. If you are looking for a way to contribute please read [CONTRIBUTING.md](CONTRIBUTING.md).
