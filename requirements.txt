@@ -1,2 +1,2 @@
-scpi==2.4.0
+scpi==2.5.1
 dataclasses==0.6

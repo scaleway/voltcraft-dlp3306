@@ -22,7 +22,7 @@ requirements = [r.strip() for r in requirements]
 
 setup(
     name="voltcraft_dlp3306",
-    version="0.1.1",
+    version="0.1.2",
     url="http://github.com/scaleway/voltcraft-dlp3306",
     author="The Scaleway Developers",
     author_email="community@scaleway.com",

@@ -26,26 +26,26 @@ from voltcraft_dlp3306 import VoltcraftDLP3306
 
 async def main_async():
     # Device ip and port can be found directly on the powersupply option
-    vtc = await VoltcraftDLP3306.create_device(ip="42.42.42.42", port="1234")
+    vlc = await VoltcraftDLP3306.create_device(ip="42.42.42.42", port="1234")
 
     # Set max delivered current (Ampere) at channel 1
-    await vtc.set_setup_current_chan(4, 1)
+    await vlc.set_setup_current_chan(4, 1)
 
     # Set delivered voltage (Volt) at channel 1
-    await vtc.set_setup_voltage_chan(15, 1)
+    await vlc.set_setup_voltage_chan(15, 1)
 
     # Switch on channel 1
-    await vlt.turn_on_chan(1)
+    await vlc.turn_on_chan(1)
 
     # Print actual develired current (Ampere) at channel 1
-    print(await vlt.get_running_current_chan(1))
+    print(await vlc.get_running_current_chan(1))
 
     # Record channels values (voltage and current) to a csv file
     # You can provide a callback to stop the record at anytime
-    await vlt.watch(frequency=0.2, out="measure.csv", channels=[1,2,3])
+    await vlc.watch(frequency=0.2, out="measure.csv", channels=[1,2,3])
 
     # Turn off channel 1
-    await vlt.turn_off_chan(1)
+    await vlc.turn_off_chan(1)
 
 if __name__ == "__main__":
     # Package API must be used with asyncio
